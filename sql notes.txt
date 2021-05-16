@@ -1,3 +1,5 @@
+Hi sharath
+
 -Distinct- select unique columns from the table.
 
 -where- 1)between->between certain range(between 50 and 60)
