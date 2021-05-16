@@ -1,0 +1,28 @@
+-Distinct- select unique columns from the table.
+
+-where- 1)between->between certain range(between 50 and 60)
+	2)like->to search pattern "%" is compulsary(like 's%';'%s';'%s%')
+	3)like->"_" represents single character.('a__%'=atleast 3 characters starting with 'a')
+	4)in->to have multiple values for a column.
+
+-top- select top columns from the table  - select top 4 * from products;
+
+-min-select min(column) from products;
+
+-max-"----------=========same=======---------"
+
+-sum-avg-count-"===========same==========="
+
+-wildcars- 	% 	Represents zero or more characters 			bl% finds bl, black, blue, and blob
+		_ 	Represents a single character 				h_t finds hot, hat, and hit
+		[] 	Represents any single character within the brackets 	h[oa]t finds hot and hat, but not hit
+		^ 	Represents any character not in the brackets 		h[^oa]t finds hit, but not hot and hat
+		- 	Represents a range of characters 			c[a-b]t finds cat and cbt
+
+-joins- while using joins specify  the join type and use "on".	
+
+-to backup DB- BACKUP DATABASE DBNAME TO DISK='FILEPATH';
+		BACKUP DATABASE DBNAME TO DISK='FILEPATH' WITH DIFFERENTIAL;->FOR LAST FEW CHANGES FROM BACKUP
+
+-CHECK- TO SPECIFY CONDITION FOR AGE AND ALL, CREATE TABLE PERSON(AGE INT CHECK (AGE>=18));
+
